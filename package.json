@@ -1,0 +1,18 @@
+{
+  "name": "shadow-of-storm-backend",
+  "version": "1.0.0",
+  "description": "NFT GAME BACKEND",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
